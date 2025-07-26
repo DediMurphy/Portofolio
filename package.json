@@ -1,7 +1,7 @@
 {
   "name": "my-react-portfolio",
   "private": true,
-  "homepage": "https://DediMurphy.github.io/Portofolio",
+  "homepage": "https://dedimurphy.github.io/Portofolio",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -9,7 +9,9 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "tailwind-init": "tailwindcss init -p"
+    "tailwind-init": "tailwindcss init -p",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.11",
