@@ -6,8 +6,8 @@ export const AboutPages = () => {
       <div className="max-w-6xl mx-auto px-6">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900">About Me</h2>
-            <p className="text-lg text-gray-600 leading-relaxed text-justify">
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 font-mono">About Me</h2>
+            <p className="text-lg text-gray-600 leading-relaxed text-justify font-sans">
               I am an undergraduate student majoring in Information Technology who has an interest in mobile application development. Since the beginning of my studies, I have been interested in the world of technology, especially in
               software development. Nowadays, I am increasingly interested in focusing on mobile app development because I believe that the mobility and connectivity offered by mobile devices can open up huge opportunities in improving user
               experience and solving various problems in everyday life.

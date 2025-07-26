@@ -2,7 +2,7 @@ export const ExperiancePages = () => {
   return (
     <section id="experience" className="py-16 px-4 md:px-8 bg-gray-50">
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-4xl md:text-5xl font-bold text-center text-gray-900 mb-12">Experience</h2>
+        <h2 className="text-4xl md:text-5xl font-bold text-center text-gray-900 mb-12 font-mono">Experience</h2>
 
         {/* Experience Item 1 */}
         <div className="bg-white rounded-lg shadow-md p-6 mb-8 transition-all duration-300 hover:shadow-lg">

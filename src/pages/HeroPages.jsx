@@ -21,7 +21,7 @@ export const HeroPages = ({ setActiveSection }) => {
             <br />
             <span className="text-gray-900">Programmer</span>
           </h1>
-          <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed">One line of clean code at a time.</p>
+          <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed font-mono">One line of clean code at a time.</p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <button
               onClick={handleExploreProjects} 

@@ -17,7 +17,7 @@ export const SkillsPages = () => {
   return (
     <section className="py-20 bg-gray-50">
       <div className="max-w-6xl mx-auto px-6">
-        <h2 className="text-4xl md:text-5xl font-bold text-center text-gray-900 mb-16">
+        <h2 className="text-4xl md:text-5xl font-bold text-center text-gray-900 mb-16 font-mono">
           Tools & Skills
         </h2>
         
@@ -38,7 +38,7 @@ export const SkillsPages = () => {
         </div>
 
         <div className="text-center">
-          <h3 className="text-2xl font-semibold text-gray-900 mb-8">Teknologi yang Saya Kuasai</h3>
+          <h3 className="text-2xl font-semibold text-gray-900 mb-8 font-mono">Tools</h3>
           <div className="flex flex-wrap justify-center gap-3">
             {technologies.map((tech, index) => (
               <span 
