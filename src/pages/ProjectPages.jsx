@@ -1,7 +1,7 @@
 import { ExternalLink } from "lucide-react";
 import React, { useState } from "react";
 
-import blogApi from '../assets/images/blogApi.png'
+import blogApi from '../assets/images/blogapi.png'
 import soulsupport from '../assets/images/soulsupport.png'
 import projectManagement from '../assets/images/projectMana.png'
 
